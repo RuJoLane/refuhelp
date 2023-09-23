@@ -19,13 +19,33 @@ h1 {
     font-size: 230%;
 }
 
-.social-networks {
+#cover {
+    position: center;
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    background: url("assets/images/chester.jpg") no-repeat center center;
+    margin: 20px;
+
+}
+
+.footer-bottom {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #006B6C;
+    color: white;
+    text-align: center;
+
+
+    /*background-color: #006B6C;
     text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 100%;*/
 
 
 }
@@ -36,11 +56,11 @@ footer {
 
 
 
-.social-networks li {
+.footer-bottom li {
     display: inline;
 }
 
-.social-networks i {
+.footer-bottom i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -53,4 +73,16 @@ footer {
     color: #FFFED0;
     margin: 10px;
 
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
 }
