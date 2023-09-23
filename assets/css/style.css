@@ -22,12 +22,16 @@ h1 {
 .social-networks {
     background-color: #006B6C;
     text-align: center;
-    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
 
 }
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 
@@ -47,5 +51,6 @@ footer {
 
     float: right;
     color: #FFFED0;
+    margin: 10px;
 
 }
