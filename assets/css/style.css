@@ -18,3 +18,34 @@ h1 {
     font-weight: bold;
     font-size: 230%;
 }
+
+.social-networks {
+    background-color: #006B6C;
+    text-align: center;
+    margin-top: auto;
+
+}
+
+footer {
+    height: 150px;
+}
+
+
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #FFFED0;
+}
+
+#copyright {
+
+    float: right;
+    color: #FFFED0;
+
+}
