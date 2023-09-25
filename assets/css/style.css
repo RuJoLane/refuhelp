@@ -23,9 +23,9 @@ h1 {
     position: center;
     height: 400px;
     width: 100%;
-    background-color: red;
-    background: url("assets/images/chester.jpg") no-repeat center center;
-    margin: 20px;
+    background-image: url("../images/chester.jpg");
+    background-repeat: no-repeat;
+    background-color: aqua;
 
 }
 
