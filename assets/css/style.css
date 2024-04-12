@@ -20,12 +20,14 @@ h1 {
 }
 
 #cover {
+    margin: 0;
+    padding: 0;
     position: center;
     height: 400px;
     width: 100%;
     background-image: url("../images/chester.jpg");
     background-repeat: no-repeat;
-    background-color: aqua;
+    background-color: #E9C3B0;
 
 }
 
@@ -51,25 +53,30 @@ h1 {
 }
 
 footer {
-    height: 100px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
 }
 
 
-
-.footer-bottom li {
-    display: inline;
+.icon {
+    justify-self: center;    
+    text-align: center;
 }
+
 
 .footer-bottom i {
     font-size: 160%;
-    margin: 1%;
+    margin-bottom: 10%;
+    margin-top: 10%;
     padding: 5%;
     color: #FFFED0;
 }
 
 #copyright {
 
-    float: right;
+    /*float: right;*/
     color: #FFFED0;
     margin: 10px;
 
