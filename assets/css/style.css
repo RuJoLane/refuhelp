@@ -3,6 +3,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #FFFED0;
+    background-color: hsla(180, 9%, 64%, 0.466);
 }
 
 .navbar-custom {
@@ -14,9 +16,9 @@ body {
     color: #FFFED0;
 }
 
-.navbar-custom li {
+.navbar-custom ul li {
     color: #FFFED0;
-
+    background-color: #006B6C;
 }
 
 h1 {
@@ -24,17 +26,21 @@ h1 {
     font-size: 230%;
 }
 
-#cover {
+/*.cover {
+    display: flex
+}
+
+/*#cover {
     margin: 0;
     padding: 0;
     position: center;
     height: 400px;
     width: 100%;
-    background-image: url("../images/chester.jpg");
+   /* background-image: url("../images/chester.jpg");
     background-repeat: no-repeat;
     background-color: #E9C3B0;
 
-}
+}*/
 
 .footer-bottom {
 
@@ -87,17 +93,7 @@ footer {
 
 }
 
-.green {
-    background-color: green;
-}
 
-.blue {
-    background-color: blue;
-}
-
-.red {
-    background-color: red;
-}
 
 /*Use below code for cover image?? 
 #hero-image {
