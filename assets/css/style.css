@@ -6,7 +6,12 @@ body {
 }
 
 .navbar-custom {
+    color: #FFFED0;
     background-color: #006B6C;
+}
+
+.nav-link {
+    color: #FFFED0;
 }
 
 .navbar-custom li {
