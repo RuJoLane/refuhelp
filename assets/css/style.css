@@ -1,54 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&family=Sono:wght@200..800&display=swap');
 
 
 body {
     font-family: 'Sono', sans-serif;
-    color: #FFFED0;
+    color: #006B6C;
     background-color: hsla(180, 9%, 64%, 0.466);
 }
-
-.navbar-custom {
-    color: #FFFED0;
-    background-color: #006B6C;
-}
-
-.nav-link {
-    color: #FFFED0;
-}
-
-.navbar-custom ul li {
-    color: #FFFED0;
-    background-color: #006B6C;
-}
-
-.logo {
-   font-weight: bold;
- }
-
 
 h1 {
    
     font-size: 230%;
 }
 
-.margin-top {
-    margin-top: 60px;
+.navbar-custom {
+    color: #FFFED0;
+    background-color: #006B6C;
+    }
+
+    .navbar-custom .navbar-nav .nav-link {
+        color: whitesmoke;
+      }
+
+.nav-link {
+    color: whitesmoke;
 }
 
-.margin-bottom {
+.navbar-custom ul li {
+    color: whitesmoke;
+    background-color: #006B6C;
+}
+
+#translate-button {
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+#translate-text {
+    color: black;
+}
+
+.logo {
+    color: whitesmoke;
+   font-weight: bold;
+ }
+
+ .index-row-1 {
+    margin-top: 10vh;
+ }
+
+ .index-row-1 h1 {
+   margin-bottom:10vh;
+   font-size: 300%;
+ }
+
+ .index-row-1 h2{
+    margin-bottom: 5vh;
+}
+
+.index-row-2 {
     margin-bottom: 70px;
 }
 
+
+
+#logo-text{
+    padding-right: 20px;
+}
+
+
+
 .custom-border {
-   margin: 15px 15px;
+   margin: 25px 35px;
 }
 
 
 .black-and-white {
-     filter: grayscale(100%);
+     filter: grayscale(70%);
 }
 
+h2 {
+    color: black;
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
+  .text-border {
+    padding-left: 25px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.circle-image {
+    border-radius: 50%;
+}
+
+.image-corner {
+    border-radius: 5%;
+}
 
 /*.cover {
     display: flex
@@ -73,7 +127,7 @@ h1 {
     bottom: 0;
     width: 100%;
     background-color: #006B6C;
-    color: white;
+    color: whitesmoke;
     text-align: center;
 
 

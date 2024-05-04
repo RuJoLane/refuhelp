@@ -31,9 +31,16 @@ Accent Color: #ffc107 (Yellow)-->
 
   <body>
       <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-       <a class="navbar-brand" href="index.html">
-        <h1 class="logo">REFU-HELP <i class="fa-solid fa-handshake-angle"></i></h1>
-       </a>
+        <a class="navbar-brand" href="index.html">
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="logo" id="logo-text">REFU-HELP</h1>
+            </div>
+            <div class="col-md-6">
+              <h1 class="logo text-center"><i class="fa-solid fa-handshake-angle"></i></h1>
+            </div>
+          </div>
+        </a>
        <button
         class="navbar-toggler"
         type="button"
@@ -47,6 +54,11 @@ Accent Color: #ffc107 (Yellow)-->
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><button type="button" class="btn btn-secondary" id="translate-button">
+            <a class="nav-link" id="translate-text" href="https://translate.google.co.uk/?sl=auto&tl=en&op=websites" target="_blank">Translate  <i class="fa-solid fa-language"></i></a>
+           </li>
+          </button>
+            
            <li class="nav-item active">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
            </li>
@@ -80,7 +92,7 @@ Accent Color: #ffc107 (Yellow)-->
     
     
     <div class="container-fluid">
-      <div class="row margin-top">
+      <div class="row index-row-1">
         <div class="col-md-6">
           <h1 class="custom-border">We support asylum seekers in Chester</h1>
           <h2 class="custom-border">Welcome to our city</h2>
@@ -92,30 +104,35 @@ Accent Color: #ffc107 (Yellow)-->
           </div>
         </div> 
         <div class="col-md-6">
-          <img src="assets/images/chester.jpg" alt="Eastgate clock" class="img-fluid mx-auto d-block custom-border black-and-white">
+          <img src="assets/images/chester.jpg" alt="Eastgate clock" class="img-fluid mx-auto d-block black-and-white image-corner">
         </div>           
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row margin-bottom">
-        
-          <div class="row">
-            <div class="col-md-6">
-              <div class="custom-border">
-               <img src="assets/images/cafe.jpg" alt="two people having coffee" class="img-fluid mx-auto d-block">
-             </div>
-            </div>  
-            <div class="col-md-6">
-              <div class="custom-border">
-               <p>We can help with food, English lessons and legal advice</p>
-               <p>See the menu to find out how to get help</p>
-              </div>
-            </div> 
+    <div class="container-fluid">            
+      <div class="row index-row-2">            
+                
+            
+       <div class="col-md-6 order-md-2">
+          <div class="custom-border text-border">
+            <p>We believe everybody has the right to seek safety in the UK</p>
+            <p>We can help with food, English lessons and legal advice</p>
+            <p>Go to 'How we can help' at the top of the page for more information</p>
+            <p>You matter - we are glad you are here</p>
           </div>
-        
-        
+       </div>
+                 
+       <div class="col-md-6 order-md-1">
+        <div class="custom-border">
+           <img src="assets/images/cafe.jpg" alt="two people having coffee" class="img-fluid mx-auto d-block circle-image">
+        </div>
       </div>
+
+      </div> 
+    </div>
+        
+        
+      
     </div>
    
                 <!--<div class="row">
@@ -165,7 +182,7 @@ Accent Color: #ffc107 (Yellow)-->
         <div class="col-2 icon"><a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a></div>
         <div class="col-2 icon"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></div>
                
-        <div id="copyright">(c) Ruth Lane 2023</div>
+        <div id="copyright">(c) RL 2024</div>
       </footer>
         
     </div>
