@@ -22,84 +22,102 @@
       <a href="signup.html">Volunteer</a>
     </nav>-->
     <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
-        <a class="navbar-brand" href="index.html">
-          <div class="row">
-            <div class="col-md-6">
-              <h1 class="logo" id="logo-text">REFU-HELP</h1>
-            </div>
-            <div class="col-md-6">
-              <h1 class="logo text-center"><i class="fa-solid fa-handshake-angle"></i></h1>
-            </div>
+      <a class="navbar-brand" href="index.html">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="logo" id="logo-text">REFU-HELP</h1>
           </div>
-        </a>
-       <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-       </button>
+          <div class="col-md-6">
+            <h1 class="logo text-center"><i class="fa-solid fa-handshake-angle"></i></h1>
+          </div>
+        </div>
+      </a>
+     <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+     </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><button type="button" class="btn btn-secondary" id="translate-button">
-            <a class="nav-link" id="translate-text" href="https://translate.google.co.uk/?sl=auto&tl=en&op=websites" target="_blank">Translate  <i class="fa-solid fa-language"></i></a>
-           </li>
-          </button>
-            
-           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-           </li>
-           <li class="nav-item dropdown">
-             <a
-              class="nav-link dropdown-toggle"
-              href="directory.html"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
-              How we can help
-             </a>
-             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">ESOL</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Health</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Legal advice</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Food and clothes</a>
-             </div>
-           </li>
-           <li class="nav-item">
-            <a class="nav-link" href="volunteer.html">Volunteer</a>
-           </li>
-         </ul>     
-      </div>
-    </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><button type="button" class="btn btn-secondary bold-button" id="translate-button">
+          <a class="nav-link" id="translate-text" href="https://translate.google.co.uk/?sl=auto&tl=en&op=websites" target="_blank">Translate  <i class="fa-solid fa-language"></i></a>
+         </li>
+        </button>
+          
+         <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item dropdown">
+           <a
+            class="nav-link dropdown-toggle"
+            href="directory.html"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            How we can help
+           </a>
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">ESOL</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Health</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Legal advice</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Food and clothes</a>
+           </div>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="volunteer.html">Volunteer</a>
+         </li>
+       </ul>     
+    </div>
+  </nav>
  
 
     <form action="https://formdump.codeinstitute.net/" method="post" class="signup-form">
-        <h2>If you can spare a couple of hours a week to volunteer with us we'd love to hear from you! <i class="fa-solid fa-handshake-angle"></i></i></h2>
-        <label for="name">Name</label>
-        <input id="name" type="text" name="name" required class="text-input">
-        <label for="phone">Phone</label>
-        <input id="phone" type="text" name="phone" required class="text-input">
-        <label for="email">Email Address</label>
-        <input id="email" type="email" name="email_address" required class="text-input">
+        <h2 id="form-heading">If you can spare a couple of hours a week to volunteer with us we'd love to hear from you! <i class="fa-solid fa-handshake-angle"></i></i></h2>
+        <div class="form-field">
+         <label for="name">Name</label>
+         <br>
+         <input id="name" type="text" name="name" required class="text-input">
+        </div>
+        <br>
+        <div class="form-field">
+         <label for="phone">Phone</label>
+         <br>
+         <input id="phone" type="text" name="phone" required class="text-input">
+        </div>
+        <br>
+        <div class="form-field">
+         <label for="email">Email Address</label>
+          <br>
+         <input id="email" type="email" name="email_address" required class="text-input">
+        </div>
+         <br>
         <fieldset class="skills">
-            <legend class="skills">Have you got any skills which might be useful when volunteering?</legend>
-                    <label for="teaching-english">Teaching English</label>
-        <input type="radio" id="teaching-english" value="teaching-english" name="skill" required>
-        <label for="trail">Translation</label>
-        <input type="radio" id="translation" value="translation" name="skill">
-        <label for="both">admin</label>
-        <input type="radio" id="admin" value="admin" name="skill">
+          <legend class="skills" id="form-text">Have you got any skills which might be useful when volunteering?</legend>
+          <div class="form-field">
+         <label for="teaching-english">Teaching English</label>
+         <input type="radio" id="teaching-english" value="teaching-english" name="skill" required>
+         <label for="trail">Translation</label>
+         <input type="radio" id="translation" value="translation" name="skill">
+         <label for="both">Admin</label>
+         <input type="radio" id="admin" value="admin" name="skill">
+         <label for="both">Other</label>
+         <input type="radio" id="other" value="other" name="skill">
+        </div>
         </fieldset>
-        <input type="submit" value="Volunteer!" class="join-button">
+        <label for="more info">More info (optional)</label>
+        <input id="name" type="text" name="more info" class="text-input">
+        <input type="submit" value="Volunteer!" class="join-button bold-button">
          
     </form>
 

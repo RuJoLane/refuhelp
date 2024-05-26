@@ -31,7 +31,7 @@ h1 {
     background-color: #006B6C;
 }
 
-#translate-button {
+.bold-button {
     color: black;
     font-weight: bold;
     background-color: whitesmoke;
@@ -46,6 +46,8 @@ h1 {
     color: whitesmoke;
    font-weight: bold;
  }
+
+ 
 
  .index-row-1 {
     margin-top: 10vh;
@@ -96,12 +98,34 @@ p {
     font-size: 1.5rem;
 }
 
+.index-row-2  p {
+    margin: 20px 20px;
+}
+
 .circle-image {
     border-radius: 50%;
 }
 
 .image-corner {
     border-radius: 5%;
+}
+
+form {
+    padding: 25px 25px; 
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+#form-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 25px 0 40px 0;    
+}
+
+#form-text {
+    margin: 20px 0 15px 0;
 }
 
 /*.cover {
