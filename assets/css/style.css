@@ -110,8 +110,32 @@ p {
     border-radius: 5%;
 }
 
+#directory-heading {
+    padding-top: 20px;
+}
+
+.top-page {
+    color: #006B6C;
+    font-size: 1rem;
+}
+
 h3 {
-    margin: 20px 0 10px 0;
+        margin: 20px 0 10px 16px;
+        padding: 15px 5px 15px 5px;
+}
+
+section {
+    border-bottom: #006B6C 1px solid;
+    padding-bottom: 20px;
+      
+}
+
+.em-info {
+    padding: 20px 5px 20px 5px;
+}
+
+section  p {
+    color: black;
 }
 
 form {
