@@ -110,6 +110,10 @@ p {
     border-radius: 5%;
 }
 
+h3 {
+    margin: 20px 0 10px 0;
+}
+
 form {
     padding: 25px 25px; 
 }
@@ -120,7 +124,7 @@ form {
 
 #form-heading {
     font-size: 2rem;
-    font-weight: bold;
+   
     margin: 25px 0 40px 0;    
 }
 
