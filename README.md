@@ -1,39 +1,42 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+URL  https://rujolane.github.io/refuhelp/
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+PURPOSE
 
-## Codeanywhere Reminders
+The purpose of this site is to provide essential information to refugees new to Chester. In terms of accessibility, design and UX, this meant it must be simple to navigate for those who may speak little English. I did this by - 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+*adding a translate tool in the nav bar with a high contrast button and universally recognisable 'translate' icon. Please note that for the purpose of this project the button directs Google Translate. Ideally this button would auto translate the page.
 
-`python3 -m http.server`
+*Selecting a clean, simple font which is available in several languages and similar to printed typeface (Sono), as the landing page features English, Arabic, Farsi and Tigrinya text.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+*Selecting high contrast but simple colours for the font and background.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+*Using images for context.
 
-`http_server`
+LIBRARIES USED
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*I built the responsive layout, nav bar and footer using Bootstrap 4.3.1
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+*I used Google Fonts to import Sono and Rosarivo via CSS
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*I used icons from font awesome.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+DESGIN / UX
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Although I approached the design / UX as 'mobile first', I found that I struggled to centre the content for viewing on a small breakpoint. 
 
----
+*I took care to align and balance images, headings and paragraphs, and be consistent with the use of bold font for important information and headings. 
 
-Happy coding!
+* I aimed for simplicity to keep the site as accessible as possible.
+
+I used colorhunt.co to find a base for a blue / teal colour scheme. Research suggested that humanitarian websites often use blue to represent calm, this is apparent on major refugee websites rush as https://www.unhcr.org/ and https://www.refugeecouncil.org.uk/. My aim was for my colour palette to echo sites such as these.
+
+TROUBLE SHOOTING
+
+I used Angela Wu's full stack dev course videos from Udemy to learn Flexbox and enhance UX knowledge.
+
+I used Chat GPT in a very measured way. I would use it to debug a specific problem if something was not working as expected. I did not ask it write code from scratch for me, although I did ask for a couple of specific examples of how to do things in CSS. I then applied this myself to my code.
+
+
