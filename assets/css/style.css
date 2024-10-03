@@ -146,6 +146,10 @@ form {
     margin-bottom: 20px;
 }
 
+.caption {
+    text-align: right;
+}
+
 #form-heading {
     font-size: 2rem;
    
